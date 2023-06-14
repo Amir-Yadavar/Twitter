@@ -9,7 +9,7 @@ export default function Sidebar() {
     <div className="hidden sm:flex flex-col p-2 fixed h-full">
       {/* logo twitter */}
       <div className="cursor-pointer w-fit rounded-full hover:bg-blue-300 p-0 ">
-        <Image width="50" height="50" src={'/img/twitter-logo2.png'} alt="amir-yadavar" className="w-24 hover:bg-blue-300 "></Image>
+        <Image width="50" height="50" src={'/img/twitter-logo2.png'} alt="amir-yadavar" className="xl:w-24 hover:bg-blue-300 "></Image>
       </div>
 
       {/* Menu */}
