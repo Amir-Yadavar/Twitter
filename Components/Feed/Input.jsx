@@ -20,8 +20,8 @@ export default function Input() {
           </div>
           <div className="flex items-center justify-between p-1 border-t border-gray-200">
             <div className="flex">
-              <PhotoIcon className="h-10 w-10 cursor-pointer hover:bg-sky-100 rounded-full p-2 text-sky-500" />
-              <FaceSmileIcon className="h-10 w-10 cursor-pointer hover:bg-sky-100 rounded-full p-2 text-sky-500" />
+              <PhotoIcon className="iconHover text-sky-500" />
+              <FaceSmileIcon className="iconHover text-sky-500" />
             </div>
 
             <button className="cursor-pointer bg-blue-500 text-white font-bold hover:brightness-95 rounded-full px-4 py-1.5 disabled:opacity-50">Tweet</button>
